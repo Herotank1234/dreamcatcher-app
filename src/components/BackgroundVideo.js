@@ -1,5 +1,6 @@
 import React from 'react';
-import video from './MV.mp4';
+
+const video = 'https://www.youtube.com/embed/1QD0FeZyDtQ';
 
 function BackgroundVideo() {
 	return (
