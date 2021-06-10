@@ -3,7 +3,7 @@ import BackgroundVideo from '../components/BackgroundVideo';
 import Header from '../components/Header';
 
 function HomePage() {
-  return(
+  return (
     <div className="h-screen w-screen"> 
       <BackgroundVideo/>
       <Header />

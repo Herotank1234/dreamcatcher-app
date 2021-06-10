@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './Logo.png'
 
 function Logo() {
   function goToHomePage() {
@@ -7,8 +6,8 @@ function Logo() {
   }
 
   return (
-    <div onClick={goToHomePage} className="flex h-14 w-20 items-center justify-center border-2 border-white rounded-3xl bg-white ml-2"> 
-      <img src={ logo } alt="Logo" className="object-scale-down h-full"/>
+    <div className="border-2 ml-4" onClick={goToHomePage}>
+      <h2 className="text-center text-white text-2xl font-amatic m-2">Dreamcatcher</h2>
     </div>
   );
 }

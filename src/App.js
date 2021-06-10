@@ -6,12 +6,16 @@ import {
 
 import './App.css';
 import HomePage from "./containers/HomePage";
+import MemberPage from "./containers/MemberPage";
 
 function App() {
   return (
     <Router>
       <div>
         <Switch>
+          <Route path="/members">
+            <MemberPage />
+          </Route>
           <Route path="/">
             <HomePage />
           </Route>
